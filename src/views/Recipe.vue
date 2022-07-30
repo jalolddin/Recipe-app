@@ -5,7 +5,7 @@
       <p>{{recipe.description}}</p>
       <hr>
       <div class="ingredients">
-        <h3>Ingredients :</h3>
+        <h3>Ingredients:</h3>
         <ul>
             <li v-for="(ingredient, i) in recipe.ingredients" :key="i">
             {{ingredient}}</li>
@@ -13,7 +13,7 @@
       </div>
       <!-- Method -->
       <div class="method">
-        <h3>Method :</h3>
+        <h3>Method:</h3>
         <ol>
             <li v-for="(step, i) in recipe.method" :key="i">
             {{step}}
